@@ -87,7 +87,7 @@ sellerStats.forEach((seller, index, array) => {
     const sellerArr =  Object.entries(seller.products_sold)
     const arr = sellerArr.map( (item) => {
         const obj = {};
-        obj.sky = item[0];
+        obj.sku = item[0];
         obj.quantity = item[1];
         return obj;
         })
